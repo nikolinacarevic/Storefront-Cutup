@@ -5,13 +5,15 @@ import styles from './grid.module.css'
 const Grid: React.FC = () => {
   return (
     <div>
-      <ul>
+      <ul className={styles.productList}>
         {products.map(product => (
           <li className={styles.productContainer} key={product.id}>
-            <div className={styles.card}>
-              <img className={styles.mainImg} src={product.image} alt={product.name} />
-              <p>{product.name}</p>
-              <p>{product.price}</p>
+            <div className={styles.productCard}>
+              <img className={styles.productImg} src={product.image} alt={product.name} />
+              <div className={styles.productText}>
+                <p className={styles.productName}>{product.name}</p>
+                <p className={styles.productPrice}>{product.price}</p>
+              </div>
             </div>
           </li>
         ))}
