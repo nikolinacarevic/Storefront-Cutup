@@ -1,0 +1,13 @@
+.mainImg {
+    width: 300px;
+    height: 300px;
+}
+
+.productContainer {
+    margin: 150px;
+    display: flex;
+}
+
+.card {
+    background-color: F7F7FA;
+}
