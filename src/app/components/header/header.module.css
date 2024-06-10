@@ -1,0 +1,17 @@
+#logo {
+    width: 250px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filter {
+    align-self: flex-start;
+    margin: 40px;
+}
+
+#HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
