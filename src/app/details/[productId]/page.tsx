@@ -10,6 +10,10 @@ export default function Main( {
   const productId = params.productId;
   const product = products.find(product => product.id === parseInt(productId));
 
+  if (!product) {
+    return <div>Product not found</div>;
+  }
+
   return (
     <>
       <div>
