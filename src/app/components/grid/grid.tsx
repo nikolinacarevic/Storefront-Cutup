@@ -8,6 +8,7 @@ const Grid: React.FC = () => {
       <ul className={styles.productList}>
         {products.map(product => (
           <li className={styles.productContainer} key={product.id}>
+            <a className={styles.productLink} href={`/details/${product.id}`}>
             <div className={styles.productCard}>
               <img className={styles.productImg} src={product.image} alt={product.name} />
               <div className={styles.productText}>
@@ -15,6 +16,7 @@ const Grid: React.FC = () => {
                 <p className={styles.productPrice}>{product.price}</p>
               </div>
             </div>
+            </a>
           </li>
         ))}
       </ul>

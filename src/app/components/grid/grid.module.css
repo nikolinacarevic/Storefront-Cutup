@@ -13,6 +13,10 @@
     border-radius: 16px;
 }
 
+.productCard:hover {
+    transform: scale(1.05);
+  }
+
 .productName {
     font-family: 'Inter';
     font-style: normal;
