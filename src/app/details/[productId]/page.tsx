@@ -2,7 +2,11 @@ import Image from 'next/image'
 import { products } from '../../components/grid/products';
 
 
-export default function Main( { params } ) {
+export default function Main( { 
+  params,
+  }: {
+    params: {productId: string}
+  }) {
   const productId = params.productId;
   const product = products.find(product => product.id === parseInt(productId));
 
