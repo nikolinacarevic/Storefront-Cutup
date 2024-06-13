@@ -37,6 +37,8 @@ export default function Main({
 
             <p className={styles.price}>{product.price}</p>
 
+            <p className={styles.prouctDescription}>{product.description}</p>
+
             <div className={styles.selectBox}>
               <select>
                 <option value="0">Select size:</option>
