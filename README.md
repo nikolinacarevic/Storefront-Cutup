@@ -1,3 +1,8 @@
-# Frontend Challenge
+# Agilo Frontend Challenge
 
-vercel : https://storefront-cutup.vercel.app/
+### Vercel deployment
+https://storefront-cutup.vercel.app/
+
+### Short description of the project
+- TIME SPENT: 
+- The implementation that was most challenging and I am most proud of:
