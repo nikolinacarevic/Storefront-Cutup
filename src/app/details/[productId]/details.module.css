@@ -1,5 +1,5 @@
 #paddingContainer {
-    margin: 100px;
+    margin: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@
 
 .price {
     font-family: 'Inter';
-    font-style: normal;
+    font-style: bold;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;

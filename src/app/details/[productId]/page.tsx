@@ -40,9 +40,9 @@ export default function Main({
             <div className={styles.selectBox}>
               <select>
                 <option value="0">Select size:</option>
-                <option value="1">S</option>
-                <option value="1">M</option>
-                <option value="1">L</option>
+                <option value="1">Small</option>
+                <option value="1">Medium</option>
+                <option value="1">Large</option>
               </select>
             </div>
 
