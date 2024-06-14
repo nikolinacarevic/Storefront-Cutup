@@ -1,4 +1,5 @@
 'use client';
+
 import React, { useState } from 'react';
 
 const QuantitySelector = ({ initialQuantity = 1, onQuantityChange }) => {
